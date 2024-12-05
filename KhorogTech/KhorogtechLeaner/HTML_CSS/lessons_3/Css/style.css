@@ -1,0 +1,25 @@
+.heading{
+    color: blue;
+    background-color: brown;
+}
+.paragraph{
+    color: aqua;
+    background-color: yellow;
+}
+.link{
+    background-color: blue;
+}
+.heading3{
+    color: red;
+    background-color: aqua;
+}
+a{
+    color: white;
+}
+.ul{
+     background-color: red;
+}
+.item{
+    color: blue;
+    background-color: yellow;
+}

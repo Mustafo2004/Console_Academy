@@ -1,0 +1,86 @@
+.hello {
+    color: yellow;
+    background-color: #0f0f0f;
+}
+
+.paragraph {
+    background-color: yellow;
+    color: black;
+}
+
+ul {
+    background-color: black;
+}
+
+ul>li {
+    color: #fff;
+    background-color: red;
+}
+
+.paragraph1 {
+    background-color: black;
+    color: #fff;
+}
+
+ol {
+    background-color: blue;
+    color: #fff;
+}
+
+ol>li {
+    background-color: darkcyan;
+    color: crimson;
+}
+
+.paragraph2 {
+    background-color: navy;
+    color: #fff;
+}
+
+.ol {
+    background-color: saddlebrown;
+    color: khaki;
+}
+
+.ol>li {
+    background-color: rgb(22, 51, 158);
+    color: rgb(166, 171, 173);
+}
+.ul{
+    color: seagreen;
+    background-color: rgb(173, 20, 150);
+}
+.ul>li {
+    background-color: rgb(30, 12, 67);
+    color: rgb(21, 123, 163);
+}
+
+.paragraph3{
+background-color: chocolate;
+color: aquamarine;
+}
+
+.ul1{
+color: red;
+background-color: navajowhite;
+}
+.ol1{
+color: rgb(20, 36, 177);
+background-color: rgba(100, 67, 17, 0.712);
+}
+.item-1, .list-4{
+color: rgb(73, 6, 136);
+background-color: yellow;
+}
+.item-2 , .list-3{
+color: rgb(26, 149, 110);
+background-color: rgba(24, 24, 20, 0.259);
+}
+.item-3 , .list-2{
+color: rgb(16, 33, 30);
+background-color: rgb(62, 14, 69);
+}
+.item-4 , .list-1{
+color: rgb(22, 3, 21);
+background-color: rgb(72, 29, 121);
+}

@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* heading */
+.heading {
+    background-color: green;
+    padding: 10px 30px 20px 20px;
+}
+
+.heading h1 {
+    color: #fff;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.heading ul {
+    list-style-type: none;
+}
+
+.heading li {
+    display: inline-block;
+}
+
+.heading a {
+    color: #fff;
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+.Teacherpage {
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+.Teacherpage h3 {
+    color: #000;
+
+}
+
+.frame {
+    border-image: space 2px red;
+    margin-top: 10px;
+}
+
+.frame img {
+    border: solid 4px red;
+
+}
+
+.Teacherpage .Shuhrat {
+    border: solid 2px blue;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.Teacherpage .Age {
+    border: dashed 2px red;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.Teacherpage .Deckription {
+    border: dotted 2px rgb(165, 19, 116);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.experiance {
+    border: solid 2px #000;
+}
+
+
+.experiance h3 {}
+
+.experiance ul{
+    padding-left: 30px;
+    list-style-type: square;
+
+}
+
+
+
+.experiance ul>li:nth-child(2)::marker
+
+ {
+    content: "🙂";
+  
+}
+.experiance ul>li:nth-child(5)::marker{
+content: " 😎";
+}   
+.experiance ul>li:nth-child(7)::marker{
+    content: " 😝 ";
+}

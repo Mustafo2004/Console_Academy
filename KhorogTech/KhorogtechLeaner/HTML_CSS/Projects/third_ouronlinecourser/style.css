@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* body {
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+} */
+
+/* starting navbar */
+.div-nav {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    align-items: center;
+
+}
+
+/* .logo{
+   
+} */
+#nav {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#nav>ul {
+    list-style-type: none;
+}
+
+.list-1 {
+    /* display: flex; */
+    display: inline-block;
+    /* justify-content: space-between; */
+}
+
+.list-1 a {
+    text-decoration: none;
+    color: #000;
+    margin-left: 40px;
+}
+
+/* .button_logo{
+    font-family: serif;
+} */
+.button_logo>button {
+    padding: 10px;
+    margin-top: -10px;
+    background-color: #FF3F3A;
+    color: #fff;
+    box-shadow: #5A87FC;
+    border: none;
+    border-radius: 5px;
+}
+
+.button_logo>img {
+    padding-left: 10px;
+}
+
+.button_logo>a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* end of navbar */
+
+.name {
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.container1 img {
+    width: 300px;
+}
+
+.width {
+    padding: 0px 100px;
+}
+
+.name>p {
+    margin-bottom: 10px;
+
+}
+
+/* .tab-numnber{
+
+} */
+.tabnumber {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.tabnumber ul {
+    list-style-type: none;
+
+}
+
+.tabnumber li {
+    margin-left: 55px
+}
+
+.tabnumber1 ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#all {
+    border: solid 1px orangered;
+    padding: 5px;
+    margin-top: -5px;
+
+    align-items: center;
+}
+
+.serching input {
+    padding: 10px;
+    background-image: url(./images/Vector\ \(Stroke\).png);
+    background-repeat: no-repeat;
+    background-position: 97% 10px;
+    margin-left: 150px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.container1 {
+    padding: 20px;
+    border: solid 1px #fff;
+    border-width: 20px;
+}
+
+.container1 img {
+    margin-bottom: 20px;
+}
+
+.container1>h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.number {
+    color: red;
+    border-right: solid 1px silver;
+    padding-right: 15px;
+    margin-right: 5px;
+}
+
+.container1 .Marketing {
+    background-color: aquamarine;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.Managment {
+    background-color: #5A87FC;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #fff;
+
+}
+
+.Recruting {
+    background-color: #F89828;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.Design {
+    background-color: #F52F6E;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.Development {
+    background-color: #7772F1;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+
+.footer3-bg {
+    background-color: #1E212C;
+    padding-top: 30px;
+
+
+}
+
+.all {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    /* gap: 100px; */
+}
+
+.footer3-bg .logo {
+    color: #fff;
+    text-align: justify;
+    width: 300px;
+}
+
+.decoration {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-self: stretch;
+}
+
+.logo img {
+    padding: 10px 0px;
+}
+
+.footer-icon img {
+    padding-left: 15px;
+}
+
+.links {
+    color: #fff; 
+}
+
+.links ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+
+}
+
+
+.links a {
+    margin-top: 10px; 
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.list-2 {
+    text-decoration: none;
+}
+
+.Contacts {
+    color: #fff;
+    margin-bottom: 100px;
+}
+
+.Contacts img,
+span {
+    align-items: center;
+    margin-top: 10px;
+}
+
+.sign-up {
+    color: #fff;
+    width: 200px;
+    display: block;
+    align-items: center;
+    /* margin-bottom: 30px; */
+
+}
+
+.Rightt {
+    position: absolute;
+    left: 135px;
+    top: -1px;
+
+
+}
+
+.sign-up h3 {
+    padding-bottom: 10px;
+    /* padding-top: 20px; */
+}
+
+.sign-up img {
+    position: absolute;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+
+.sign-up p {
+    padding-top: 20px;
+}
+
+.email-input {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100px;
+}
+
+.sar-birak {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+.sar-birak a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+@media (max-width:1148px){
+.container{
+    grid-template-columns: 1fr 1fr;
+}
+}

@@ -1,0 +1,44 @@
+/* For the body element */
+body {
+    background-color: #f0f0f0;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* For the block element */
+  .block-element {
+    background-color: #ffcccc;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Times New Roman", serif;
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+    border: 2px solid #ff0000;
+    margin: 10px;
+  }
+  
+  /* For the inline element */
+  .inline-element {
+    color: #0000ff;
+    font-size: 14px;
+  }
+  
+  /* For the inline-block element */
+  .inline-block-element {
+    background-color: #ccffcc;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: "Courier New", monospace;
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #008000;
+    margin: 5px;
+  }
+  
+  /* For the "none" value */
+  .none-element {
+    display: none;
+  }
+  

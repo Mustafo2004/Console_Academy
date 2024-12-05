@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+.conteiner1{
+    margin: 20px 10px;
+}
+.conteiner1>img{
+    margin-bottom: 10px;
+}
+span{
+    margin-bottom: 10px; 
+    background-color: aqua;
+   padding:5px ;
+}
+.conteiner1>h3{
+    margin-bottom: 10px; 
+}
+.conteiner1>p{
+    
+}

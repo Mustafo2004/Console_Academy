@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* starting navbar */
+.div-navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    text-decoration: none;
+    padding-left: 20px;
+    color: #000;
+}
+
+.registar a {
+    color: #000;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.registar .button {
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    padding: 10px;
+    color: #fff;
+}
+.registar a:hover{
+    color: aquamarine;
+    cursor: cell;
+
+}
+a:hover{
+    color: red;
+}
+
+/* end of navbar */
+.backround-box {
+    background-color: coral;
+    margin-top: 20px;
+}
+
+.Parent-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Parent-1 a {
+    display: inline-block;
+    border: solid 1px #fff;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.Parent-1 .Explore {
+    background-color: #F75E05;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.number h1 {
+    font-size: 60px;
+}
+
+.number span {
+    font-size: small;
+}
+
+.number {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.girl {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.all-above {
+    align-items: center;
+}
+
+.all-above h2 {
+    margin-bottom: 20px;
+}
+
+.all-above img {
+    margin-bottom: 20px;
+}
+
+.text {
+    display: inline-block;
+    margin-bottom: 20px;
+
+}
+
+.aboutus {
+    border: solid 1px red;
+    background-color: #FF3F3A;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+
+.backround-box2 {
+    background-color: aliceblue;
+    align-items: center;
+}
+
+.Best {
+    padding: 30px 0px;
+    margin-left: 60px;
+}
+
+.images-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    align-items: center;
+}
+
+.teamimg {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.beautiful img {
+    background-color: yellow;
+}
+
+.shirchoy {
+    border: 1px solid red;
+    background-color: orangered;
+    padding: 10px;
+
+}
+
+.footer2 {}
+
+.tutors {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0px 30px;
+
+
+}
+
+.textt {
+    position: relative;
+    top: 30px;
+    display: flex;
+    right: 120px;
+    background-color: #fff;
+    padding: 3px;
+}
+
+.pos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text p {
+    margin-left: 20px;
+}
+
+
+.Marketing {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Marketing>div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 350px;
+}
+
+.read {
+    display: flex;
+    align-items: center;
+}
+
+.read a {
+    color: #000;
+}
+
+.bg-color3 {
+    background-color: rgb(28, 190, 163);
+}
+
+.must {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.must input {
+    width: 300px;
+    padding: 10px 0px;
+    margin-top: 40px;
+}
+
+.Subscribe {
+    border: solid 1px red;
+    background-color: #FF3F3A;
+}
+
+.footer3-bg {
+    background-color: #1E212C;
+
+
+}
+
+.all {
+    display: flex;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer3-bg .logo {
+    color: #fff;
+    text-align: justify;
+    width: 300px;
+}
+
+.decoration {
+    /* position: absolute; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    align-self: stretch;
+}
+
+.logo img {
+    padding: 10px 0px;
+}
+
+.footer-icon img {
+    padding-left: 15px;
+}
+
+.links {
+    color: #fff;
+}
+
+.links ul {
+    list-style-type: none;
+
+}
+
+.links li {
+    margin-top: 10px;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+.Contacts {
+    color: #fff;
+    margin-bottom: 100px;
+}
+
+.Contacts img,
+span {
+    align-items: center;
+    margin-top: 10px;
+}
+
+.sign-up {
+    color: #fff;
+    width: 200px;
+    display: block;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.Rightt {
+    position: absolute;
+    right: 20px;
+    top: -1px;
+
+}
+
+.sign-up h3 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.sign-up img {
+    position: absolute;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+
+.sign-up p {
+    padding-top: 20px;
+}
+
+.email-input{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.sar-birak{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+.sar-birak a{
+    color:black ;
+}

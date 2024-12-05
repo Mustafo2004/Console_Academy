@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    border: solid 2px rgb(92, 31, 215);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    
+    
+}
+.red-div{
+    border: solid 1px rgb(241, 62, 13);
+    width: 500px;
+}
+.red-div>h2{
+border: solid 2px rgb(26, 208, 84);
+justify-content: center;
+margin: 10px;
+}
+.red-div>img{
+    border: solid 2px rgb(26, 175, 208);
+    margin: 10px;
+    height: 150px;
+}
+.red-div>p{
+    border: solid 2px blue;
+    margin: 10px; 
+    padding: 5px;
+}
+span{
+    background-color: rgb(43, 159, 78);
+    color: #fff;
+    padding: 5px;
+}
+.ipsum{
+    background-color: rgb(223, 237, 22);
+    color: #fff;
+    padding: 2px;
+}

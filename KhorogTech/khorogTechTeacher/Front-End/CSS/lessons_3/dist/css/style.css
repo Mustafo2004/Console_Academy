@@ -1,0 +1,105 @@
+
+/* CSS styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #0078d4;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+main {
+
+    width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); */
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+p {
+    margin: 10px 0;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #0078d4;
+}
+
+ul {
+    /* list-style-type: disc; */
+    margin: 10px 0;
+    padding: 0 0 0 20px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+ol {
+    /* list-style-type: decimal; */
+    margin: 10px 0;
+    padding: 0 0 0 20px;
+}
+
+div.note {
+    background-color: #f7df1e;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+span.highlight {
+    color: #ff5733;
+}
+
+.button {
+    background-color: #0078d4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+/* Center-align text */
+.center {
+    text-align: center;
+}

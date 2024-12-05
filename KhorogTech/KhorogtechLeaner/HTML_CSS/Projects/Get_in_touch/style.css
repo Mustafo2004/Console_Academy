@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* starting navbar */
+.div_navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 20px;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+
+}
+
+.nav a {
+    text-decoration: none;
+    color: #424551;
+    padding-left: 20px;
+}
+
+.nav .Blog {
+    color: red;
+}
+
+.nav a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.nav_button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav_button button {
+    border: none;
+    color: #fff;
+    background-color: orangered;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.nav_button button:hover {
+    border: none;
+    color: #fff;
+    background-color: blue;
+    transform: scale(1.1);
+    /* qula me  kixtat  pe diga element az ve joyte thar  nakixt */
+}
+
+.nav_button a {
+    text-decoration: none;
+    color: #424551;
+}
+
+/* end of navbar */
+
+/* starting container1 */
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 70px;
+}
+
+.name_of_container1 {
+    font-size: 30px;
+    margin: 15px 0px;
+}
+
+.icons_contaier1 {
+    margin-top: 20px;
+}
+
+.icons_contaier1 li {
+    display: inline-block;
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* finish of conrainer 1 */
+
+/* starting container 2 */
+
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+
+}
+
+.name_container2 {
+    width: 500px;
+    display: grid;
+    justify-items: flex-start;
+    align-items: center;
+
+}
+
+.name_container2 h3 {
+    font-size: 20px;
+}
+
+.name_container2 h2 {
+    font-size: 40px;
+    width: 500px;
+}
+
+input {
+    padding: 5px;
+    accent-color: orangered;
+    caret-color: red;
+}
+
+input :focus {
+    color: red;
+}
+
+
+.input_container2 {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    align-items: self-start;
+}
+
+.input_container2 .message {
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    grid-column: 1/3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    width: 100%;
+}
+
+.input_container2 .message textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+}
+
+.button_container2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+.button_container2 button {
+    background-color: orangered;
+    border: none;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 4px;
+}
+
+.button_container2 button:active {
+    background-color: rgb(22, 16, 210);
+    border: none;
+    color: #fff;
+    transform: scale(1.2);
+    border-radius: 20px;
+}
+
+.checkbox {
+    accent-color: orangered;
+    caret-color: red;
+}
+
+
+
+.footer3-bg {
+    background-color: #1E212C;
+
+
+}
+
+.all {
+    display: flex;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer3-bg .logo {
+    color: #fff;
+    text-align: justify;
+    width: 300px;
+}
+
+.decoration {
+    /* position: absolute; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    align-self: stretch;
+}
+
+.logo img {
+    padding: 10px 0px;
+}
+
+.footer-icon img {
+    padding-left: 15px;
+}
+
+.links {
+    color: #fff;
+}
+
+.links a {
+    color: #fff;
+}
+
+.links ul {
+    list-style-type: none;
+
+}
+
+.links li {
+    margin-top: 10px;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+.Contacts {
+    color: #fff;
+    margin-bottom: 100px;
+}
+
+.Contacts img,
+span {
+    align-items: center;
+    margin-top: 10px;
+}
+
+.sign-up {
+    color: #fff;
+    width: 200px;
+    display: block;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.Rightt {
+    position: absolute;
+    right: 20px;
+    top: -1px;
+
+}
+
+.sign-up h3 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.sign-up img {
+    position: absolute;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+
+.sign-up p {
+    padding-top: 20px;
+}
+
+.email-input {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.sar-birak {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+.sar-birak a {
+    color: black;
+    text-decoration: none;
+}

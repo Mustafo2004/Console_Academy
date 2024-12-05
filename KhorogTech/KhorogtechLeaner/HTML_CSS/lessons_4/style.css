@@ -1,0 +1,60 @@
+.text{
+/* shrift ve pameyat  */
+    font-weight: 600;
+    /* razmer shrifta */
+    font-size: 20px;
+    /* kursivne stil */
+    font-style: italic;
+    /* shrifti */
+    /* font-family: ; */
+}
+.tirtle{
+    text-align: center;
+    background-color: red;
+    
+}
+.link{
+    text-decoration: none;
+}
+.LINK{
+    text-align: center;
+    background-color: aqua;
+    
+
+}
+.Home{
+    text-align: right;
+    background-color: rgb(134, 189, 23);
+}
+.one{
+    background-color: aquamarine;
+}
+.two{
+    background-color: rgb(236, 53, 12);
+}
+.three{
+    background-color: rgb(77, 225, 13);
+    padding: 30px;
+}
+.homepage1{
+    background-color: aquamarine;
+}
+.homepage2{
+    background-color: rgb(236, 53, 12);
+}
+.homepage3{
+    background-color: rgb(77, 225, 13);
+    padding: 50px;
+    
+}
+.box{
+    background-color: red;
+    color: white;
+}
+.box1{
+background-color: blue;
+margin-top: 20px;
+margin-left: 20px;
+margin: 20px;
+
+}

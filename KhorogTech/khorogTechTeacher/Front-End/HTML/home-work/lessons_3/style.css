@@ -1,0 +1,80 @@
+/* Apply styles to the elements */
+
+/* Headings */
+h1 {
+    color: #333;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #555;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+h3 {
+    color: #777;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+h4 {
+    color: #999;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+h5 {
+    color: #BBB;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+h6 {
+    color: #DDD;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+/* Paragraph */
+p {
+    color: #333;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Georgia, serif;
+}
+
+/* Anchor link */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Unordered list */
+ul {
+    background-color: #F5F5F5;
+    padding: 10px;
+}
+
+ul li {
+    color: #333;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: Arial, sans-serif;
+}
+
+/* Ordered list */
+ol {
+    background-color: #F5F
+}

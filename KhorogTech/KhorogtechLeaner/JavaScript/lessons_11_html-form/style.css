@@ -1,0 +1,15 @@
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.area {
+    width: 500px;
+    height: 200px;
+    resize: none;
+    /* resize yam vorturd me grazantalne kixto fort achath ... */
+}
+.checkbox{
+    display: flex;
+}

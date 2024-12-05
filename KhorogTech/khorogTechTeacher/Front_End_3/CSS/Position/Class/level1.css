@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 80px;
+  position: absolute;
+  top: -40px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+  margin-top: 40px;
+}
+.box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 60px;
+  text-align: center;
+  width: 400px;
+  height: 200px;
+  background-color: lightblue;
+}

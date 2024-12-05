@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 15px;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  position: relative;
+  left: 0px;
+  transition: all (0.5s);
+  animation-name: boxAnimation;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes boxAnimation {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0;
+  }
+  25% {
+    background-color: rgb(15, 236, 140);
+    top: 0;
+    left: 1000px;
+  }
+  50% {
+    background-color: rgb(12, 12, 252);
+    left: 1000px;
+    top: 300px;
+  }
+  75% {
+    background-color: rgb(223, 17, 202);
+    left: 0px;
+    top: 300px;
+  }
+  100% {
+    background-color: rgb(21, 163, 240);
+    left: 0px;
+    top: 0;
+  }
+}
+.box1 {
+  background-color: #000;
+  width: 100px;
+  height: 100px;
+  animation-name: boxAnimationn;
+  position: absolute;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes boxAnimationn {
+  0% {
+    background-color: rgb(21, 0, 255);
+    left: 0px;
+    top: 0;
+  }
+  25% {
+    background-color: rgb(183, 11, 177);
+    top: 0;
+    left: 100px;
+  }
+  50% {
+    background-color: rgb(21, 216, 99);
+    left: 100px;
+    top: 100px;
+    transform: rotate(120deg);
+  }
+  75% {
+    background-color: rgb(210, 11, 11);
+    left: 0px;
+    top: 100px;
+  }
+  100% {
+    background-color: rgb(206, 126, 13);
+    left: 0px;
+    top: 0;
+  }
+}

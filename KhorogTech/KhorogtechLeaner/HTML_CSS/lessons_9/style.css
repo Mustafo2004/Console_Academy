@@ -1,0 +1,40 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+.next{
+    
+   padding: 10px 20px;
+   font-size: 42px;
+   
+}
+
+.next-div{
+position: absolute;
+width: fit-content;
+}
+.arrow{
+    width: 20px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+} */
+.all{
+    width: 300px;
+    position: relative;
+}
+.all img{
+    width:100%;
+     /* position: absolute; */
+     
+
+}
+
+.paragraph{
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0.468);
+    bottom: 0;
+    color: #fff;
+    left: 0;
+    right: 0;
+}

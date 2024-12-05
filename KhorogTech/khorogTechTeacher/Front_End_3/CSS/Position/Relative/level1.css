@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  border: 2px solid red;
+  margin: 20px;
+  padding: 20px;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+}
+.box1{
+    background-color: black;
+    border-radius: 20px;
+    position: relative;
+    top: 100px;
+    left: 120px;
+}
+.box2{
+    background-color:blue;
+    border-radius: 20px;
+}

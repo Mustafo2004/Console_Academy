@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  background-color: blue;
+  /* width: 300px; */
+  height: 300px;
+  border-radius: 15px;
+
+}
+/* ! Flex */
+/* .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+@media (max-width: 851px) {
+  .wrapper {
+    flex-wrap: wrap;
+  }
+} */
+ /* ! Grid */
+ .wrapper{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr)) ;
+    gap: 10px;
+ }

@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h3 {
+  text-align: center;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
+.box {
+  width: 250px;
+  height: 250px;
+  background-color: antiquewhite;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+@media (max-width: 1011px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 597px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}

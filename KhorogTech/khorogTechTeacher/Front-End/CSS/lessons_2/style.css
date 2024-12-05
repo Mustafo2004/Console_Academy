@@ -1,0 +1,81 @@
+.logo {
+    background-color: #0f0f0f5d;
+    font-size: 100px;
+    color: yellow;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.Hello{
+text-align: center;
+color: red;
+font-size: 90px;
+font-weight: 900;
+font-style: oblique;
+}
+.paragrapgh{
+color:#fff;
+background-color: black;
+font-size: 30px;
+}
+.Products{
+color: aquamarine;
+background-color: rgb(18, 32, 5);
+font-size: 40px;
+text-align: center;
+
+}
+.about{
+font-size: 20px;
+font-weight: 400;
+}
+.paragrapgh1{
+background-color: #d01212;
+color: #fff;
+font-style: italic;
+font-size: 10px;
+}
+
+ a{
+text-decoration: none;
+color: black;
+font-size: 20px;
+}
+.paragrapgh3{
+
+color: chartreuse;
+}
+.center{
+text-align: center;
+}
+.right{
+text-align: right;
+}
+.ul{
+color: red;
+background-color: blue;
+}
+.ul>li{
+color: rgb(21, 52, 8);
+background-color: rgb(22, 108, 129);
+text-align: center;
+color: #fff;
+}
+.ol{
+color: rgb(173, 14, 134);
+background-color: rgb(172, 18, 18);
+text-align: right;
+}
+.ol>li{
+color: rgb(16, 60, 164);
+background-color: rgb(7, 45, 54);
+text-align: center;
+text-align: right;
+color: #fff;
+}
+.ol a{
+color: #fff;
+}
+.ul a{
+color: #fff;
+}

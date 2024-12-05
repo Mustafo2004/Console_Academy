@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.block{
+    border: 5px solid blue;
+    margin-top: 20px;
+    height: 800px;
+    width: 800px;
+    position: relative;
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block__1{
+    color: #fff;
+    height: 50px;
+    text-align: center;
+    font-weight: 700;
+    background-color: red;
+}
+.block__2{
+    color: #fff;
+    height: 50px;
+    text-align: center;
+    font-weight: 700;
+    background-color: blue;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+  
+}
+.block__3{
+
+    color: #fff;
+    height: 50px;
+    text-align: center;
+    font-weight: 700;
+    background-color: green;
+}
